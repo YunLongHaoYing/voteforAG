@@ -1,0 +1,10 @@
+<view class="background">
+    <view class="first">
+        <input id='account' placeholder="请输入学号/工号" placeholder-class="plas" type="text" class="inputs" bindinput="accountInput" />
+    </view>
+
+    <view id='btn' class="click" bindtap='signin'>登录系统</view>
+    <view class="imagebg">
+      <image class="weizai"src="../../images/QQ图片20220902135937.jpg" mode="widthFix"></image>
+    </view>
+</view>

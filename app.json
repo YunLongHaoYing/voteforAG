@@ -1,0 +1,57 @@
+{
+  
+    "pages": [
+        "pages/login/login",
+        "pages/index/index",
+        "pages/music/music",
+        "pages/art/art",
+        "pages/dance/dance",
+        "pages/idea/idea"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#90EE90",
+        "navigationBarTitleText": "社指大会计票",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+   
+      "tabBar": {
+        "color": "#000000",
+        "borderStyle": "black",
+        "selectedColor": "#9999FF",
+        "list": [
+         {
+            "pagePath": "pages/index/index",
+            "text": "总计",
+            "iconPath": "/images/index.png",
+            "selectedIconPath": "/images/index.png"
+          },
+          {
+            "pagePath": "pages/music/music",
+            "text": "音乐",
+            "iconPath": "/images/music.png",
+            "selectedIconPath": "/images/music.png"
+          },
+          {
+            "pagePath": "pages/dance/dance",
+            "text": "舞蹈",
+            "iconPath": "/images/dance.png",
+            "selectedIconPath": "/images/dance.png"
+          },
+          {
+            "pagePath": "pages/idea/idea",
+            "text": "创意",
+            "iconPath": "/images/idea.png",
+            "selectedIconPath": "/images/idea.png"
+          },
+          {
+            "pagePath": "pages/art/art",
+            "text": "美术",
+            "iconPath": "images/art.png",
+            "selectedIconPath": "/images/art.png"
+          }
+       ]
+    }
+}

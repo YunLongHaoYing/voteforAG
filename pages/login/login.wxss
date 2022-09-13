@@ -1,0 +1,97 @@
+/* pages/login/login.wxss */
+pages {
+  left: 0rpx;
+  right: 0rpx;
+  background-color: white;
+}
+
+
+.first {
+  width: 90%;
+  height: 100rpx;
+  margin-top: 180rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  /*Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+
+.second {
+  width: 90%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  /*Flex是Flexible Box的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性*/
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+
+.flas {
+  font-size: 30rpx;
+  color: #CCCCCC;
+}
+
+
+.inputs {
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #000000;
+  margin: auto;
+  margin-left: 20rpx;
+  width: 100%;
+}
+
+
+.click {
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  margin: auto;
+  margin-top: 80rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #66c76b;
+  text-align: center;
+  color: white;
+  font-size: 33rpx;
+  border-radius: 15rpx;
+}
+
+
+.cha {
+  width: 90%;
+  height: 50rpx;
+  margin: auto;
+  margin-top: 30rpx;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.no {
+  color: black;
+  font-size: 28rpx;
+  margin-left: 15rpx;
+  font-family: PingFangSC-regular;
+}
+
+.imagebg{
+  display:flex;                    
+  justify-content: center;        
+  align-items:center;   
+  margin-top: 100rpx;             
+ }
+.weizai{
+  width: 500rpx;
+  
+}
