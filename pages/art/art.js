@@ -1,66 +1,42 @@
-// pages/art/art.js
-Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad(options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage() {
-
-  }
-})
+/*主页中上的提示信息板式*/
+.text-Top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  font-weight: 600;
+  font-size: large;
+}
+.text-top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+  font-weight: 600;
+  font-size: large;
+}
+.text-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40rpx;
+  font-size:smaller;
+  margin-top:40px;
+}
+/*投票view的边距*/
+.voteInfo_class{
+  padding: 20px 10px 20px 10px;
+}
+/*投票的图片大小*/
+.voteImage {
+  width: 250rpx;
+  height: 250rpx;
+}
+/*首页排版*/
+.index_class {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around
+}
