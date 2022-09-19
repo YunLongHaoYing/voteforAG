@@ -1,2 +1,35 @@
-<!--pages/music/music.wxml-->
-<text>pages/music/music.wxml</text>
+<view class="text-Top">音乐金钟奖评选</view>
+<view class="text-top">请选择你喜欢的节目</view>
+<radio-group bindchange="radioChang" data-id="{{item.id}}">
+    <view class="index_class">
+        <view class="voteInfo_class">
+            <radio value="1">
+                <view>1号节目：{{VoteTitle[0]}}</view>
+                <image src="{{voteImage[0]}}" class="voteImage"></image>
+            </radio>
+        </view>
+        <view class="voteInfo_class">
+            <radio value="2">
+                <view>2号节目：{{VoteTitle[1]}}</view>
+                <image src="{{voteImage[1]}}" class="voteImage"></image>
+            </radio>
+        </view>
+        <view class="voteInfo_class">
+            <radio value="3">
+                <view>3号节目：{{VoteTitle[2]}}</view>
+                <image src="{{voteImage[2]}}" class="voteImage"></image>
+            </radio>
+        </view>
+        <view class="voteInfo_class">
+            <radio value="4">
+                <view>4号节目：{{VoteTitle[3]}}</view>
+                <image src="{{voteImage[3]}}" class="voteImage"></image>
+            </radio>
+        </view>
+        <button type="primary" bindtap="sureVote">确定投票</button>
+    </view>
+</radio-group>
+<view class="text-bottom">
+<view>每人只能投票一次，投票后可以查看每个选项的投票次数</view>
+</view>
+
